@@ -1,0 +1,111 @@
+body{
+  background-color: rgba(128, 128, 128, 0.25);
+}
+
+nav ul li{
+  display: inline;
+  float: left;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.cabecalho{
+  width: 100%;
+  background-color: gray;
+  margin-bottom: 40px;
+  height: 125px;
+  border-radius: 10px;
+}
+
+.cabecalho h1, h4{
+  padding-top: 20px;
+  color: rgba(80, 255, 247, 0.85);
+  text-align: center;
+}
+
+.cabecalho a{
+  text-decoration: none;
+  text-decoration-color: white;
+}
+
+
+.container{
+}
+
+.menu-lateral{
+  float: right;
+  padding-right: 10%;
+}
+
+article{
+  width: 50%;
+  margin-left: 8%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+article footer{
+  text-align: center;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+.comentarios{
+  background-color: rgba(128, 128, 128, 0.27);
+  display: block;
+  text-align: left;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.comentarios form{
+  margin-top: 40px;
+}
+
+.comentarios button, textarea{
+  margin: 10px;
+  border: 1px solid blue;
+  display: block;
+  align-self: center;
+}
+
+.comentarios input, textarea{
+  border: 2px solid rgba(80, 255, 247, 1);
+  border-radius: 8px;
+  margin-left: 15px;
+}
+
+.comentarios textarea{
+  width: 350px;
+  height: 60px;
+}
+
+.tags-artigo ul{
+  margin-top: -30px;
+  display: inline-block;
+}
+
+.tags-artigo li{
+  display: inline-block;
+}
+
+.btn-comentar{
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: #558c43;
+}
+
+.novo-artigo textarea{
+  width: 500px;
+  height: 200px;
+}
