@@ -13,6 +13,7 @@
         <h4>from when we were teenage shoegazers</h4>
            <nav>
               <ul>
+                  <li><a href="index.html" style="display: inline;">Home</a></li>
                   <li><a href="novo_artigo.html" style="display: inline;">Novo Artigo</a></li>
                   <li><a href="perfil.html" style="display: inline;">Autores</a></li>
                   <li><a href="#" style="display: inline;">Principais Artigos</a></li>
@@ -38,50 +39,6 @@
     <section>
       <div class="container">
         <main>
-
-            <article>
-                <header><h2> <strong>ALBUM REVIEW: Miniatures | Jessamines</strong></h2></header>
-
-                <main>
-                  <p>
-
-I’ve known about this album for a while. Back in 2016, I first communicated with guitarist Ché Walden and he was kind enough to send me a copy. He was also searching for a label and the band’s vocalist had left the fold (not sure if she ever came back), and happily, they are now on the venerable Saint Marie Records here in the US. Both Ché and vocalist Annemarie Duff hail from New Zealand but pulled up stakes and moved to Melbourne, the band’s home base. With the addition of Chris MacLean on bass, the band worked with renowned Melbourne producer Matthew Hosking on this debut release.
-                  </p>
-                </main>
-
-                <footer>
-                    <h5>Autor: <a href="#">Gabriel Carneiro</a><h5>
-                    <p>Publicado em: <time>21-09-2017 - 19:39</time></p>
-
-                    <div class="tags-artigo">
-                      <ul>
-                          <li><a href="">#vitae</a></li>
-                          <li><a href="">#auctor</a></li>
-                          <li><a href="">#dignissim</a></li>
-                      </ul>
-                    </div>
-
-                    <div class="comentarios">
-                    <label>Comentários:</label>
-                    <ul>
-                        <li>
-                            <p>Ximbinha: <small>Amei!!!</small></p>
-                        </li>
-                        <li>
-                            <p>Joelma: <small>Interessante</small></p>
-                        </li>
-                    </ul>
-                    <form>
-                        <input type="text" name="" placeholder="Insira seu nome"> <br>
-                        <textarea placeholder="O que achou do artigo?"></textarea>
-                        <button type="submit" value="submit" class="btn-comentar"
-                              >Comentar</button>
-                    </form>
-                  </div>
-
-                </footer>
-            </article>
-
 
             <article>
                 <header><h2> <strong>ALBUM REVIEW: The Mock Turtles – Two Sides</strong></h2></header>
@@ -115,22 +72,16 @@ I’ve known about this album for a while. Back in 2016, I first communicated wi
                       </ul>
                     </div>
 
-                    <div class="comentarios">
+                    <section class="comentarios">
                     <label>Comentários:</label>
-                    <ul>
-                        <li>
-                            <p>Ximbinha: <small>Amei!!!</small></p>
-                        </li>
-                        <li>
-                            <p>Joelma: <small>Interessante</small></p>
-                        </li>
+                    <ul id="lista-comentarios">
                     </ul>
-                    <form>
-                        <input type="text" name="" placeholder="Insira seu nome"> <br>
-                        <textarea placeholder="O que achou do artigo?"></textarea>
-                        <button type="submit" value="submit" class="btn-comentar">Comentar</button>
+                    <form id="form-comentario">
+                        <input id="input-autor" type="text" name="" placeholder="Insira seu nome" <br>
+                        <textarea id="input-comentario" placeholder="O que achou do artigo?"></textarea>
+                        <button type="button" class="btn-comentar" onclick="addComentario();" >Comentar</button>
                     </form>
-                  </div>
+                  </section>
 
                 </footer>
             </article>
@@ -146,6 +97,9 @@ I’ve known about this album for a while. Back in 2016, I first communicated wi
         <center>2017</center>
         <center>gabrielcarneiro@email.com</center>
     </footer>
+
+
+    <script src="js/main.js"></script>
 
 </body>
 </html>

@@ -30,6 +30,7 @@ nav ul li{
 
 
 .container{
+  margin-left: 8%;
 }
 
 .menu-lateral{
@@ -39,7 +40,6 @@ nav ul li{
 
 article{
   width: 50%;
-  margin-left: 8%;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -108,4 +108,8 @@ a{
 .novo-artigo textarea{
   width: 500px;
   height: 200px;
+}
+
+.novo-artigo{
+  margin-left: 8%;
 }
